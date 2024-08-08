@@ -4,6 +4,7 @@ import Userregistration from './Component/Userregistration';
 import Useravailability from './Component/Useravailability';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js"
+import Forgot2 from './Component/Forgot2';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         </div>
       </div> */}
        <div className='available'>
-      <Useravailability/>
+      {/* <Useravailability/> */}
+      <Forgot2/>
       </div>
     </div> 
   );
