@@ -1,0 +1,70 @@
+.border {
+     height: 340px;
+     width: 480px;
+     background-color: rgba(16, 12, 27, 0.612);
+     border: 1.5px solid rgb(255, 255, 255);
+     border-radius: 20px;
+
+}
+
+.registration {
+     text-align: center;
+     color: rgb(255, 255, 255)
+}
+
+.content {
+     padding-left: 100px;
+     font-weight: bolder;
+     color: azure;
+
+}
+
+.reg {
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+}
+
+.reg button {
+     background-color: rgb(68, 181, 247);
+     border: 1px solid rgb(36, 35, 35);
+     border-radius: 20px;
+     height: 35px;
+     width: 100px;
+     font-weight: bold;
+     color: rgb(0, 0, 0);
+}
+
+.reg button:hover {
+     cursor: pointer;
+     background-color: rgb(127, 208, 235);
+     width: 115px;
+     height: 38px;
+     transition: all 300ms ease-in-out;
+     border-radius: 18px;
+}
+
+.content input {
+     border-radius: 10px;
+     padding: 4px;
+}
+
+.content textarea {
+     border-radius: 10px;
+     padding: 4px;
+     border: 1.6px solid black;
+}
+
+table .first-row {
+     margin-left: 200px;
+}
+
+.App {
+     background-image: url(https://cdn.wallpapersafari.com/46/38/j46uNT.jpg);
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: rgba(255, 255, 255, 0.555);
+}

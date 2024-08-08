@@ -1,0 +1,33 @@
+.avlimg {
+   background-image: url(https://th.bing.com/th/id/R.a1a8f043a54ffc438c6901e2ee7ba7ea?rik=Q64hPzmQ%2b1Eizg&riu=http%3a%2f%2fwww.tahiti.com%2fimages1%2fgallery%2fHotel-Kia-Ora-Overwater-Bar3-2000x1200_29586.jpg&ehk=VGvRtgNfsIFelRxZ3MoUSBwvDh4xr4ag%2fDC2cF72uCE%3d&risl=&pid=ImgRaw&r=0);
+   background-size:cover;
+   height:100vh;
+   justify-content: center;
+   align-items: center;
+   /* display: flex; */
+}
+/* .avlborder {
+   height: 240px;
+   width: 380px;
+   border: 1.5px solid rgb(255, 255, 255);
+   border-radius: 20px;
+   color: aliceblue;
+} */
+.avlname{
+   text-align: center;
+}
+.avladd{
+   text-align: center;
+}
+
+  
+
+
+.color{
+   background-color: rgba(0, 0, 0, 0.452);
+}
+
+.main a{
+   color: rgb(255, 255, 255);
+   /* font-family: 'Courier New', Courier, monospace; */
+}
