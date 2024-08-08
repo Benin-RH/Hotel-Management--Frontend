@@ -5,12 +5,14 @@ import img from '../Assets/availableproject.jpg'
 
 function Userregistration() {
   return (
-    <div className="border">
-      <div className="registration">
+    <div className='regmain'>
+
+    <div className="regborder">
+      <div className="regregistration">
         <h2>User Registration</h2>
         {/* <img src={img}/> */}
       </div>
-      <div className="content">
+      <div className="regtext">
 
         <table>
           <tr>
@@ -42,6 +44,7 @@ function Userregistration() {
       </div>
 
 
+    </div>
     </div>
   )
 }

@@ -1,5 +1,5 @@
-.border {
-     height: 340px;
+.regborder {
+     height: 360px;
      width: 480px;
      background-color: rgba(16, 12, 27, 0.612);
      border: 1.5px solid rgb(255, 255, 255);
@@ -7,12 +7,12 @@
 
 }
 
-.registration {
+.regregistration {
      text-align: center;
      color: rgb(255, 255, 255)
 }
 
-.content {
+.regtext {
      padding-left: 100px;
      font-weight: bolder;
      color: azure;
@@ -44,12 +44,12 @@
      border-radius: 18px;
 }
 
-.content input {
+.regtext input {
      border-radius: 10px;
      padding: 4px;
 }
 
-.content textarea {
+.regtext textarea {
      border-radius: 10px;
      padding: 4px;
      border: 1.6px solid black;
@@ -59,7 +59,7 @@ table .first-row {
      margin-left: 200px;
 }
 
-.App {
+.regmain {
      background-image: url(https://cdn.wallpapersafari.com/46/38/j46uNT.jpg);
      background-size: cover;
      display: flex;

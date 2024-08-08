@@ -2,9 +2,10 @@ import React from 'react'
 import './Useravailablity.css'
 function Useravailability() {
   return (
+    <div className='available'>
     <div className='avlimg'>
       <nav class="navbar color">
-        <div class="container-fluid main">
+        <div class="container-fluid avlmain">
           <a class="navbar-brand">BOOKING</a>
           <form class="d-flex" role="search">
             <button class="btn btn-danger" type="submit">Check Availability</button>
@@ -22,6 +23,7 @@ function Useravailability() {
         </div>
 
       </div>
+    </div>
     </div>
   )
 }

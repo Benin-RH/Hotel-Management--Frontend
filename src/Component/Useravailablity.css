@@ -6,28 +6,24 @@
    align-items: center;
    /* display: flex; */
 }
-/* .avlborder {
+.avlborder {
    height: 240px;
    width: 380px;
    border: 1.5px solid rgb(255, 255, 255);
    border-radius: 20px;
    color: aliceblue;
-} */
+} 
 .avlname{
    text-align: center;
 }
 .avladd{
    text-align: center;
 }
-
-  
-
-
 .color{
    background-color: rgba(0, 0, 0, 0.452);
 }
 
-.main a{
+.avlmain a{
    color: rgb(255, 255, 255);
-   /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Courier New', Courier, monospace;
 }

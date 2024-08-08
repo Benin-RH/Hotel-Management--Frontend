@@ -8,14 +8,11 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js"
 function App() {
   return (
     <div>
-      {/* <div className="App">
-        <div className="image">
           <Userregistration />
-        </div>
-      </div> */}
-       <div className='available'>
+      
+      
       <Useravailability/>
-      </div>
+      
     </div> 
   );
 }
