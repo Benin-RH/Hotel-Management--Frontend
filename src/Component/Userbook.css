@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.parent{
+    background-image: url("../Assets/image.jpg");
+    background-position: center;
+    position: fixed;
+    width: 100%;
+    }
+.hotel h1{
+    margin-left: 120px;
+    color: white ;
+    margin-top: 40px;
+}
+
+
+label{
+    color: white;
+}
+
+
+.user-booking-pg{
+    background-color:transparent;
+    /* border:1px solid black; */
+    height: 800px;
+    width: 600px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 0;
+
+}
+
+.sign-button{
+margin-left:250px;
+margin-top: 20px;
+}
+
