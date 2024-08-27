@@ -1,0 +1,151 @@
+.forgot-bg{
+    background-image: url(https://i.pinimg.com/originals/64/11/69/64116949ed4aa6b6004d193a107c31f3.jpg);
+    height: 740px;
+    width: 1600px;
+    position:fixed
+}
+.forgot-border{
+    /* border: 2px solid rgb(20, 18, 18); */
+    height: 700px;
+    width: 700px;
+    margin: auto;
+   margin-top: 70px;
+
+
+}
+
+
+.forgot-head{
+    color: aliceblue;
+    padding-top: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.forgot-mini{
+    margin-top: 30px;
+    border: 1px solid rgb(20, 18, 18);
+    height: 130px;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.458);
+
+}
+
+.forgot-mail{
+    color: rgb(246, 248, 250);
+    padding-top: 25px;
+    padding-left: 190px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    
+    
+}
+
+.forgot-text{
+    margin-left: 30px;
+    background-color: rgba(138, 138, 143, 0.267);
+    border: solid 1.9px rgb(244, 237, 237);
+    border-radius: 50px;
+
+}
+
+.forgot-button{
+    margin-top: 30px;
+    margin-left: 270px;
+    color: rgb(234, 238, 238);
+    border-radius: 70px;
+    border: solid 1.9px rgb(27, 27, 27);
+    background-color: rgba(39, 37, 37, 0.534);
+    height: 30px;
+    width: 110px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.forgot-mini-1{
+    margin-top: 30px;
+    border: 1px solid rgb(20, 18, 18);
+    height: 100px;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.438);
+
+}
+
+.forgot-text-1{
+    margin-left: 30px;
+    background-color: rgba(138, 138, 143, 0.253);
+    border: solid 1.9px rgb(244, 237, 237);
+    border-radius: 50px;
+    
+
+
+}
+
+
+.forgot-code{
+    color: aliceblue;
+    padding-top: 30px;
+    padding-left: 190px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+
+}
+.forgot-mainpass{
+
+    border: 1px solid rgb(20, 18, 18);
+    height: 200px;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.459);
+
+    padding-top: 30px;
+    color: aliceblue;
+    /* padding-left: 100px; */
+    margin-top: 30px;
+
+}
+
+.forgot-new{
+    padding-left: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.forgot-pass{
+    margin-left: 30px;
+    background-color: rgba(84, 81, 81, 0.371);
+    border: solid 1.9px rgb(244, 237, 237);
+    border-radius: 50px;
+
+}
+
+
+.forgot-confirm{
+    padding-left: 150px;
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+
+}
+
+.forgot-pass-2{
+    margin-left: 52px;
+    background-color: rgba(76, 73, 73, 0.338);
+    border: solid 1.9px rgb(244, 237, 237);
+    border-radius: 50px;
+    color: black;
+
+}
+
+.forgot-but{
+    color: rgb(239, 244, 244);
+    border-radius: 70px;
+    border: solid 1.9px rgb(27, 27, 27);
+    background-color: rgba(39, 37, 37, 0.763);
+    margin-left: 270px;
+    margin-top: 30px;
+    height: 30px;
+    width: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}

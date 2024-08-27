@@ -1,0 +1,8 @@
+.uloginborder {
+    height: 360px;
+    width: 480px;
+    background-color: rgba(16, 12, 27, 0.612);
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+
+}

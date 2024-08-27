@@ -1,29 +1,61 @@
-.avlimg {
-   background-image: url(https://th.bing.com/th/id/R.a1a8f043a54ffc438c6901e2ee7ba7ea?rik=Q64hPzmQ%2b1Eizg&riu=http%3a%2f%2fwww.tahiti.com%2fimages1%2fgallery%2fHotel-Kia-Ora-Overwater-Bar3-2000x1200_29586.jpg&ehk=VGvRtgNfsIFelRxZ3MoUSBwvDh4xr4ag%2fDC2cF72uCE%3d&risl=&pid=ImgRaw&r=0);
+.available {
+   background-image: url(../Assets/avlbackground.jpeg);
    background-size:cover;
    height:100vh;
    justify-content: center;
    align-items: center;
-   /* display: flex; */
 }
-.avlborder {
-   height: 240px;
-   width: 380px;
-   border: 1.5px solid rgb(255, 255, 255);
+.avlnav nav{
+   background-color: rgba(0, 0, 0, 0.555);
+}
+.avlnav a{
+   color: rgb(244, 244, 244);
+   font-weight:900;
+}
+.avlnav button{
+   background-color:rgb(59, 84, 245);
+   color:aliceblue;
+   width: 190px;
+   height: 35px;
+   font-weight: 800;
+}
+.avlnav button:hover{
+   cursor: pointer;
+     background-color: rgb(30, 27, 211);
+     color: aliceblue;
+      width: 200px;
+     height: 40px;
+     transition: all 300ms ease-in-out;
+     
+}
+.avlnav a:hover{ 
+   color:rgb(255, 255, 255);
+}
+.avlborder{
+   height: 150px;
+   width: 450px;
+   /* background-color: rgba(16, 12, 27, 0.612);
+   border: 1.5px solid rgb(255, 255, 255); */
    border-radius: 20px;
-   color: aliceblue;
-} 
-.avlname{
-   text-align: center;
+   margin: auto;
+   margin-top: 100px;
 }
-.avladd{
-   text-align: center;
+.avlcontent{
+   margin-top: 20px;
+   padding-left: 100px;
+     font-weight: bolder;
+     color: azure;
 }
-.color{
-   background-color: rgba(0, 0, 0, 0.452);
+.avlcontent input{
+   border-radius: 10px;
+   padding: 4px;
 }
 
-.avlmain a{
-   color: rgb(255, 255, 255);
-    font-family: 'Courier New', Courier, monospace;
+.avlcontent textarea{
+   border-radius: 10px;
+     padding: 4px;
+     border: 1.6px solid black;
+}
+.avlcard{
+   margin-top: 50px;
 }
