@@ -5,20 +5,19 @@ import Useravailability from './Component/Useravailability';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import Forgot2 from './Component/Forgot2';
-
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Userlogin from './Component/Userlogin';
 function App() {
   return (
-    <div>
-      {/* <div className="App">
-        <div className="image">
-          <Userregistration />
-        </div>
-      </div> */}
-       <div className='available'>
-      {/* <Useravailability/> */}
-      <Forgot2/>
-      </div>
+    <BrowserRouter>
+    <div >
+      <Routes>
+      <Route path="userreg" element={<Userregistration/>}/>
+      <Route path="useravl" element={<Useravailability/>}/>
+      <Route path="userlogin" element={<Userlogin/>}/>
+      </Routes>
     </div> 
+    </BrowserRouter>
   );
 }
 
